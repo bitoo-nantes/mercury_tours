@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="All Tests" parallel="false" preserve-order="true" thread-count="1">
+    <test name="test1">
+        <classes>
+            <class name="formationselenium.Mercury.MercuryTours"/>
+        </classes>
+    </test>
+</suite>
