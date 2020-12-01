@@ -2,7 +2,6 @@ package formationselenium.Mercury;
 
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 import static org.testng.Assert.*;
