@@ -52,6 +52,10 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
+                    <!--https://stackoverflow.com/questions/57299606/testng-by-default-disables-loading-dtd-from-unsecure-urls-->
+                    <systemPropertyVariables>
+                        <testng.dtd.http>true</testng.dtd.http>
+                    </systemPropertyVariables>
                 </configuration>
             </plugin>
             <!-- Compiler plugin configures the java version to be usedfor compiling 
