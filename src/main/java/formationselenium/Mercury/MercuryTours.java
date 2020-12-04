@@ -28,7 +28,7 @@ public class MercuryTours {
   public void testMercuryTours() throws Exception {
    // driver.get("http://demo.guru99.com/test/newtours/");
     // Lancement du site en local
-    // Test lancement auto Jenkins
+    // Test lancement auto Jenkins - Ajout commentaire
     driver.get("http://localhost:51/servlets/com.mercurytours.servlet.WelcomeServlet");
     driver.findElement(By.linkText("REGISTER")).click();
     driver.findElement(By.name("userName")).clear();
